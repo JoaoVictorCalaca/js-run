@@ -1,0 +1,27 @@
+{
+  "name": "js-run",
+  "productName": "js run",
+  "version": "1.0.0",
+  "main": "main.js",
+  "win": {
+    "icon": "buid/icon.ico"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "electron .",
+    "package": "electron-builder build"
+  },
+  "author": "@jv_calaca",
+  "license": "ISC",
+  "description": "App develope for study the Electron utilities",
+  "devDependencies": {
+    "electron": "^31.2.1",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.jvCalaca.jsRun",
+    "files": [
+    "!assets/**/*"
+    ]
+  }
+}
